@@ -26,3 +26,8 @@ order by preço;
 select * from tb_produtos
 where preço<500.00
 order by preço;
+
+update tb_produtos
+set preço = 30.00
+where id_produto = 4
+limit 1;
